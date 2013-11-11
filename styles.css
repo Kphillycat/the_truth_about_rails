@@ -1,15 +1,28 @@
 body {
 }
 
-h1 {
+/* TEXT STYLES */
+
+
+h1, h2, p {
 	text-align: center;
-
-}
-h2 {
-	text-align: center;
-
+	font-family: 'Open Sans', sans-serif;
 }
 
+.name {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18pt;
+}
+
+.truth, .lie {
+font-size: 16pt;
+font-family: 'Open Sans', sans-serif;
+padding: 18px;
+}
+
+
+
+/* LAYOUT */
 .container {
 width: 900px;
 min-height: 1600px;
@@ -41,11 +54,12 @@ margin-left: auto;
 }
 
 .name {
-	width: 100%;
+	width: 840px;
 	height: 30px;
 	background-color: grey;
 	float:left;
-	margin: 15px;
+	margin-left: 15px;
+	
 
 }
 .photo {
