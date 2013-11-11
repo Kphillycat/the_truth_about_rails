@@ -179,33 +179,52 @@ li {
 	width: 100%;
 	padding-top: 18px;
 	padding-bottom: 18px;
-
+	padding-left: 18px;
 }
+
+
 
 .row:hover{
 	background-color: #8ce0ed;
 	width: 100%;
 }
 
+.row p {
+	display: inline;
+	font-size: 16pt;
+} 
+
+.row a:visited, a:active, a:hover, a:-webkit-any-link {
+	text-decoration: none;
+	color: black;
+}
+
+p.resource {
+	font-weight: 700;
+}
+
+/*
 p.resource{
 	position: relative;
 	float: left;
 	clear: both;
 	text-align: left;
-	font-size: 16pt;
+
 	font-weight: 700;
 	height: 50px;
-	line-height: 20pt;
 	padding-left: 18px;
 	font
+	background-color: green;
 }
 
 p.description{
 	text-align: left;
 	font-size: 16pt;
-	line-height: 20pt;
 	height: 50px;
 	float:left;
 	font-weight: 300;
-	
+	background-color: blue;
+	width: 500px;
+
 }
+*/
