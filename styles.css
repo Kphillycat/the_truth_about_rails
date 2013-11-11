@@ -1,35 +1,72 @@
 body {
-
-
 }
 
 h1 {
 	text-align: center;
-	
+
+}
+h2 {
+	text-align: center;
+
 }
 
 .container {
 width: 900px;
+min-height: 1600px;
 background-color: red;
 padding: 30px;
+margin-right: auto; 
+margin-left: auto;
 }
 
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
 
+.person {
+	background-color: green;
+	border-style: solid;
+	position: relative;
+	float: left;
+	clear: both;
+}
+
+.name {
+	width: 100%;
+	height: 30px;
+	background-color: grey;
+	float:left;
+	margin: 15px;
+
+}
 .photo {
 	width: 300px;
 	height: 300px;
 	background-color: yellow;
 	overflow: hidden;
 	float:left;
+	margin: 15px;
 }
 
 img {
 	max-width: 100%;
 }
 
-.facts {
+.details {
 width: 510px;
 height: 300px;
 background-color: blue;
 float:left;
+margin: 15px;
 }
+
+
