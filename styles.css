@@ -17,15 +17,21 @@ h1, h2, p {
 .truth, .lie {
 font-size: 16pt;
 font-family: 'Open Sans', sans-serif;
-padding: 18px;
+padding: 5px 10px 5px 10px;
+height: 90px;
+vertical-align: middle;
+color: #858384;
 }
 
+.lie:hover {
+	background-color: pink;
+}
 
 
 /* LAYOUT */
 .container {
 width: 900px;
-min-height: 1600px;
+min-height: 1550px;
 background-color: red;
 padding: 30px;
 margin-right: auto; 
