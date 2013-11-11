@@ -28,6 +28,16 @@ color: #333;
 	background-color: #8CE0ED;
 }
 
+.right, .wrong {
+font-size: 16pt;
+padding: 10px 50px;
+vertical-align: middle;
+color: #333;
+}
+
+.wrong:hover {
+	background-color: #8CE0ED;
+}
 
 /* LAYOUT */
 .container {
