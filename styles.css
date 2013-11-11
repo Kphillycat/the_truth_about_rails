@@ -22,19 +22,29 @@ font-size: 16pt;
 padding: 10px 12px 0px 15px;
 height: 90px;
 vertical-align: middle;
-color: #fff;
+color: #333;
 }
 
 .lie:hover {
-	background-color: pink;
+	background-color: #8CE0ED;
 }
 
+.right, .wrong {
+font-size: 16pt;
+padding: 10px 50px;
+vertical-align: middle;
+color: #333;
+}
+
+.wrong:hover {
+	background-color: #8CE0ED;
+}
 
 /* LAYOUT */
 .container {
 width: 900px;
 min-height: 1550px;
-background-color: red;
+/*background-color: red;*/
 padding: 30px;
 margin-right: auto; 
 margin-left: auto;
@@ -54,7 +64,7 @@ margin-left: auto;
 }
 
 .person {
-	background-color: green;
+	/*background-color: green;*/
 	border-style: solid;
 	position: relative;
 	float: left;
@@ -64,7 +74,7 @@ margin-left: auto;
 .name {
 	width: 840px;
 	height: 30px;
-	background-color: grey;
+	/*background-color: grey;*/
 	float:left;
 	margin-left: 15px;
 	
@@ -73,7 +83,7 @@ margin-left: auto;
 .photo {
 	width: 300px;
 	height: 300px;
-	background-color: yellow;
+	/*background-color: yellow;*/
 	overflow: hidden;
 	float:left;
 	margin: 5px 15px 15px 15px;
@@ -84,11 +94,11 @@ img {
 }
 
 .details {
-width: 510px;
-height: 300px;
-background-color: blue;
-float:left;
-margin: 5px 15px 15px 15px;
+	width: 510px;
+	height: 300px;
+	/*background-color: blue;*/
+	float:left;
+	margin: 5px 15px 15px 15px;
 }
 
 ul {
@@ -102,22 +112,20 @@ li {
 }
 
 .items {
-	background-color: green;
+	/*background-color: green;*/
 	border-style: solid;
 	position: relative;
 	padding: 5px;
 }
 
 .question {
-	background-color: orange;
+	/*background-color: orange;*/
 	padding: 10px;
 	font-size: 1.75em;
 }
 
 .answers {
-	width: 510px;
-	height: 300px;
-	background-color: blue;
+	/*background-color: blue;*/
 	padding: 10px 0;
 }
 
