@@ -4,13 +4,10 @@
 		<title>The Truth About Rails</title>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="normalize.css">
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		
-
-
 		<!-- Responsive website: Use alt .css for mobile devices. This disables mobile zoom, so they keep our defaults --> 
 		<link rel="stylesheet" type="text/css" href="device_styles.css">
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 
 
@@ -45,7 +42,7 @@
 				</div>
 			</div>
 			<div class ="items">
-				<div class="question">If you run $ rails generate scaffold User</div>
+				<div class="question">If you run $ rails generate scaffold User:</div>
 				<div class="answers">
 					<div class="right">A Users controller is generated.</div>
 					<div class="right">A user model is generated.</div>
@@ -62,7 +59,7 @@
 				</div>
 			</div>
 			<div class="items">
-				<div class="question">What do you do to add a gem to your app?</div>
+				<div class="question">What do you do when you add a gem to your app?</div>
 				<div class="answers">
 					<div class="right">Add it to Gemfile.rb.</div>
 					<div class="wrong">Go to Tiffany's.</div>
@@ -70,7 +67,7 @@
 				</div>
 			</div>
 			<div class="items">
-				<div class="question">Which of the below is not part of a basic Rails app?</div>
+				<div class="question">All Rails apps include:</div>
 				<div class="answers">
 					<div class="right">A README.rdoc file.</div>
 					<div class="wrong">A checkout directory for git logs.</div>
@@ -86,7 +83,7 @@
 				</div>
 			</div>
 			<div class="items">
-				<div class="question">These are valid rails commands...</div>
+				<div class="question">These are valid rails commands:</div>
 				<div class="answers">
 					<div class="right">gem update # Updates all Ruby Gems. </div>
 					<div class="right">rake db:migrate # Runs all migrations to bring the database up to date.</div>
@@ -94,13 +91,21 @@
 				</div>
 			</div>
 			<div class="items">
-				<div class="question">In Rails Migrations...</div>
+				<div class="question">Rails Migrations:</div>
 				<div class="answers">
 					<div class="right">are a convenient way to alter your database schema over time in a consistent and easy way. </div>
 					<div class="wrong">don'thave a Ruby DSL, so you have to write out SQL.</div>
 					<div class="right">are stored as files in the db/migrate directory, one for each migration class.</div>
 				</div>
-			</div>			
+			</div>
+			<div class="items">
+				<div class="question">These are possible validations you can use in Rails:</div>
+				<div class="answers">
+					<div class="wrong">validates_association_of </div>
+					<div class="right">validates_inclusion_of</div>
+					<div class="right">validates_uniqueness_of</div>
+				</div>
+			</div>				
 		</div>
 
 		<div class="button-container">
