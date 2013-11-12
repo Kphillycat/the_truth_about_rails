@@ -112,4 +112,7 @@
 <script>
 	var random = Math.floor(Math.random() * $('.items').length);
 	$('.items').hide().eq(random).show();
+	$('.next').click(function(){
+		location.reload();
+	})
 </script>
