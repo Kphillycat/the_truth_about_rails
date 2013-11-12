@@ -37,17 +37,24 @@ color: #333;
 }
 
 .wrong:hover {
-	background-color: #8CE0ED;
+	background-color: #E80707;
+}
+
+.right:hover {
+	background-color: #58E312;
 }
 
 /* LAYOUT */
 .container {
-width: 900px;
-min-height: 1550px;
+width: 80%;
+/*min-height: 1550px;*/
 /*background-color: red;*/
-padding: 30px;
-margin-right: auto; 
+padding: 0;
+border-style: solid;
+/*margin-right: auto; 
 margin-left: auto;
+margin-top: 50px;*/
+margin: 50px auto;
 }
 
 .clearfix:after {
@@ -112,9 +119,9 @@ li {
 }
 
 .items {
-	/*background-color: green;*/
-	border-style: solid;
-	position: relative;
+	background-color: #CCD7D9;
+	/*border-style: solid;*/
+	margin: 10px;
 	padding: 5px;
 }
 
