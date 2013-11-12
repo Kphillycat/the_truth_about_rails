@@ -46,7 +46,7 @@ vertical-align: middle;
 color: #333;
 }
 
-.right:hover {
+.right:hover, .truth:hover {
 	background-color: #74CC64; /* GREEN */
 }
 
@@ -82,7 +82,10 @@ margin: 20px auto;
 
 .person {
 	background-color: white;
-	border-style: solid;
+	background-color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color: #F7F7F7; /* very light gray */
 	position: relative;
 	float: left;
 	clear: both;
