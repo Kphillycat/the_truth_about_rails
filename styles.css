@@ -200,7 +200,7 @@ li {
 
 
 .row:hover{
-	background-color: #F59E07; /* ORANGE */
+	background-color: #F7F7F7; /* very light gray */
 	
 }
 
@@ -214,7 +214,19 @@ li {
 	color: black;
 }
 
-p.resource {
+p.resource, p.title {
 	font-weight: 700;
+	margin-top:7px;
 }
+
+.sectiontitle {
+	position: relative;
+	float: left;
+	clear: both;
+	height: 35px;
+	width: 822px;
+	padding-left: 18px;
+	background-color:  #F59E07; /* ORANGE */
+}
+
 
