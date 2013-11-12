@@ -4,8 +4,9 @@
 		<title>The Truth About Rails</title>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 
-		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		
 
 
 		<!-- Responsive website: Use alt .css for mobile devices. This disables mobile zoom, so they keep our defaults --> 
@@ -16,19 +17,25 @@
 		
 	</head>
 	<body>
-		<div id="nav_bar">
-			<nav>
-				<a href="index.html">About Us</a>
-				<a href="resources.html">Rails Resources</a>
-				<a class="selected" href="quiz.html">Rails Quiz</a>
-			</nav>				
-		</div>
+		
 		<header>
 			<h1>THE TRUTH ABOUT RAILS</h1>
-			<h2>Two Truths and a Lie</h2>
-			<p>Hover over an item to see if it's a right or wrong answer!<br>The truths will highlight in green, and the wrong answer will be red.</p>
+
+			<div id="nav_bar">
+				<nav>
+					<a href="index.html">About Us</a>
+					<a href="resources.html">Rails Resources</a>
+					<a class="selected" href="quiz.html">Rails Quiz</a>
+				</nav>				
+			</div>
+			
+			
+
 		</header>
+		
+		<p class="instructions">Hover over an item to see if it's a truth or lie.<br>The truths will highlight in green, and the lies will be red.</p>
 		<div class="container">
+			
 			<div class ="items">
 				<div class="question">Rails is:</div>
 				<div class="answers">

@@ -7,11 +7,20 @@ body {
 
 }
 
+header {
+	margin-bottom: 40px;
+}
+
 /* TEXT STYLES */
 
 
 h1, h2, p {
 	text-align: center;	
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 400;
 }
 
 .name {
@@ -27,7 +36,7 @@ color: #333;
 }
 
 .lie:hover, .wrong:hover {
-	background-color: #E80707; /* RED */
+	background-color: #F75C5C; /* RED */
 }
 
 .right, .wrong {
@@ -38,7 +47,11 @@ color: #333;
 }
 
 .right:hover {
-	background-color: #58E312;
+	background-color: #74CC64; /* GREEN */
+}
+
+.instructions {
+	margin-bottom: 0;
 }
 
 /* LAYOUT */
@@ -51,7 +64,7 @@ border: 3px solid #EBEBEB;
 /*margin-right: auto; 
 margin-left: auto;
 margin-top: 50px;*/
-margin: 50px auto;
+margin: 20px auto;
 }
 
 .clearfix:after {
@@ -117,7 +130,9 @@ li {
 
 .items {
 	background-color: white;
-	border-style: solid;
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color: #F7F7F7; /* very light gray */
 	position: relative;
 	padding: 5px;
 }
@@ -144,7 +159,7 @@ li {
 	}
 
 	#nav_bar nav {
-		border-left: 1px solid #942290;
+		border-left: 3px solid white;
 		
 	}
 
@@ -156,22 +171,25 @@ li {
 			text-transform: uppercase;
 			color: black;
 			text-align: center;
-			border-right: 1px solid #942290;
+			border-right: 3px solid white;
 			text-decoration: none;
 			font-size: 20px;
-			border: 1px solid #942290;
+			border: 3px solid white;
+			background-color: white;
 
 	}
 
 	#nav_bar nav a.selected {
 			background: #F59E07;
 			color: white;
+			border-color: #F59E07;
 	}
 
 
 #nav_bar nav a:hover {
 	background: #942290;
 	color: white;
+	border-color: #942290;
 }
 
 /* RESOURCES PAGE */
@@ -197,8 +215,8 @@ li {
 	/*padding-top: 18px;
 	padding-bottom: 18px;*/
 	padding-left: 5%;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 30px;
+	padding-bottom: 15px;
 	background-color: white;
 	border-bottom-style: solid;
 	border-bottom-width: 4px;
@@ -215,7 +233,6 @@ li {
 .row p {
 	display: inline;
 	font-size: 16pt;
-	
 } 
 
 .row a:visited, a:active, a:hover, a:-webkit-any-link {
@@ -225,7 +242,9 @@ li {
 
 p.resource, p.title {
 	font-weight: 700;
-	margin-top:7px;
+	margin-top:0px;
+	font-size: 16pt;
+
 }
 
 .sectiontitle {
@@ -234,7 +253,7 @@ p.resource, p.title {
 	clear: both;*/
 	height: 35px;
 	width: 100%;
-	/*padding-left: 18px;*/
+	padding: 3px 0px 3px 0px;
 	background-color:  #F59E07; /* ORANGE */
 }
 
