@@ -59,16 +59,29 @@
         }
 
         .container {
-        width: 300px;
-        min-height: 290px;
+        width: 310px;
+        min-height: 295px;
         /*background-color: red;*/
         padding: 0px;
         margin-right: auto; 
         margin-left: auto;
         }
 
+
+        p.instructions  {
+        position: relative;
+        float: left;
+        clear: both;
+        text-align: left;
+        font-size: 1.0em;
+        font-weight: 700;
+        height: 50px;
+        line-height: 20pt;
+        padding-left: 18px;
+        }
+
         .container-inner {        
-        width: 295px;
+        width: 305px;
         min-height: 285px;
         /*background-color: red;*/
         padding: 0px;
