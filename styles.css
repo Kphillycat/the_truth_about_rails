@@ -3,6 +3,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	padding-top: 40px; /*Added for Nav Bar*/
+	background-color: #F7F7F7; /* very light gray */
 
 }
 
@@ -25,8 +26,8 @@ vertical-align: middle;
 color: #333;
 }
 
-.lie:hover {
-	background-color: #8CE0ED;
+.lie:hover, .wrong:hover {
+	background-color: #FC7272; /* LIGHT RED */
 }
 
 .right, .wrong {
@@ -36,9 +37,6 @@ vertical-align: middle;
 color: #333;
 }
 
-.wrong:hover {
-	background-color: #8CE0ED;
-}
 
 /* LAYOUT */
 .container {
@@ -64,7 +62,7 @@ margin-left: auto;
 }
 
 .person {
-	/*background-color: green;*/
+	background-color: white;
 	border-style: solid;
 	position: relative;
 	float: left;
@@ -112,7 +110,7 @@ li {
 }
 
 .items {
-	/*background-color: green;*/
+	background-color: white;
 	border-style: solid;
 	position: relative;
 	padding: 5px;
@@ -141,6 +139,7 @@ li {
 
 	#nav_bar nav {
 		border-left: 1px solid #942290;
+		
 	}
 
 	#nav_bar nav a {
@@ -153,7 +152,7 @@ li {
 			text-align: center;
 			border-right: 1px solid #942290;
 			text-decoration: none;
-			font: 20px "Trebuchet MS", Arial, sans-serif;
+			font-size: 20px;
 			border: 1px solid #942290;
 
 	}
@@ -171,22 +170,38 @@ li {
 
 /* RESOURCES PAGE */
 
+.container-inner {
+	width: 840px;
+	min-height: 800px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #EBEBEB; /* light gray */
+	position: relative;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .row {
 	position: relative;
 	float: left;
 	clear: both;
 	height: 60px;
-	width: 100%;
+	width: 822px;
 	padding-top: 18px;
 	padding-bottom: 18px;
 	padding-left: 18px;
+	background-color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color: #F7F7F7; /* very light gray */
 }
 
 
 
 .row:hover{
-	background-color: #8ce0ed;
-	width: 100%;
+	background-color: #F59E07; /* ORANGE */
+	
 }
 
 .row p {
@@ -203,28 +218,3 @@ p.resource {
 	font-weight: 700;
 }
 
-/*
-p.resource{
-	position: relative;
-	float: left;
-	clear: both;
-	text-align: left;
-
-	font-weight: 700;
-	height: 50px;
-	padding-left: 18px;
-	font
-	background-color: green;
-}
-
-p.description{
-	text-align: left;
-	font-size: 16pt;
-	height: 50px;
-	float:left;
-	font-weight: 300;
-	background-color: blue;
-	width: 500px;
-
-}
-*/
