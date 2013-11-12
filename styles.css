@@ -47,7 +47,7 @@ width: 80%;
 /*min-height: 1550px;*/
 /*background-color: red;*/
 padding: 0;
-border-style: solid;
+border: 3px solid #EBEBEB;
 /*margin-right: auto; 
 margin-left: auto;
 margin-top: 50px;*/
@@ -176,27 +176,29 @@ li {
 
 /* RESOURCES PAGE */
 
-.container-inner {
+/*.container-inner {
 	width: 840px;
 	min-height: 800px;
 	border-style: solid;
 	border-width: 4px;
 	border-color: #EBEBEB; /* light gray */
-	position: relative;
+	/*position: relative;
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
-}
+} */ 
 
 .row {
 	position: relative;
-	float: left;
-	clear: both;
+	/*float: left;
+	clear: both;*/
 	height: 60px;
-	width: 822px;
-	padding-top: 18px;
-	padding-bottom: 18px;
-	padding-left: 18px;
+	width: 95%;
+	/*padding-top: 18px;
+	padding-bottom: 18px;*/
+	padding-left: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: white;
 	border-bottom-style: solid;
 	border-bottom-width: 4px;
@@ -213,6 +215,7 @@ li {
 .row p {
 	display: inline;
 	font-size: 16pt;
+	
 } 
 
 .row a:visited, a:active, a:hover, a:-webkit-any-link {
@@ -227,11 +230,11 @@ p.resource, p.title {
 
 .sectiontitle {
 	position: relative;
-	float: left;
-	clear: both;
+	/*float: left;
+	clear: both;*/
 	height: 35px;
-	width: 822px;
-	padding-left: 18px;
+	width: 100%;
+	/*padding-left: 18px;*/
 	background-color:  #F59E07; /* ORANGE */
 }
 
