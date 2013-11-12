@@ -3,7 +3,7 @@
 	<head>
 		<title>The Truth About Rails</title>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		
@@ -102,5 +102,14 @@
 				</div>
 			</div>			
 		</div>
+
+		<div class="button-container">
+			<button class="next"> NEXT</button>
+		</div>
 	</body>
 </html>
+
+<script>
+	var random = Math.floor(Math.random() * $('.items').length);
+	$('.items').hide().eq(random).show();
+</script>

@@ -151,6 +151,25 @@ li {
 	padding: 10px 0;
 }
 
+.button-container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+button.next {
+	background-color: #F59E07; /* ORANGE */
+	border: none;
+	width: 100px;
+	height: 40px;
+	
+	color: white;
+	font-weight: 500;
+	font-size: 18px;
+
+}
+
 /*Nav bar*/
 #nav_bar {
 		position: relative;
@@ -197,17 +216,6 @@ li {
 
 /* RESOURCES PAGE */
 
-/*.container-inner {
-	width: 840px;
-	min-height: 800px;
-	border-style: solid;
-	border-width: 4px;
-	border-color: #EBEBEB; /* light gray */
-	/*position: relative;
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-} */ 
 
 .row {
 	position: relative;
