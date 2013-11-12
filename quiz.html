@@ -6,6 +6,14 @@
 
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link rel="stylesheet" type="text/css" href="normalize.css">
+
+
+		<!-- Responsive website: Use alt .css for mobile devices. This disables mobile zoom, so they keep our defaults --> 
+		<link rel="stylesheet" type="text/css" href="device_styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+
+		
 	</head>
 	<body>
 		<div id="nav_bar">
@@ -70,6 +78,22 @@
 					<div class="right">Controller and Model</div>
 				</div>
 			</div>
+			<div class="items">
+				<div class="question">These are valid rails commands...</div>
+				<div class="answers">
+					<div class="right">gem update # Updates all Ruby Gems. </div>
+					<div class="right">rake db:migrate # Runs all migrations to bring the database up to date.</div>
+					<div class="wrong">gem update miner drill # Increase speed of Gems.</div>
+				</div>
+			</div>
+			<div class="items">
+				<div class="question">In Rails Migrations...</div>
+				<div class="answers">
+					<div class="right">are a convenient way to alter your database schema over time in a consistent and easy way. </div>
+					<div class="wrong">don'thave a Ruby DSL, so you have to write out SQL.</div>
+					<div class="right">are stored as files in the db/migrate directory, one for each migration class.</div>
+				</div>
+			</div>			
 		</div>
 	</body>
 </html>
