@@ -65,7 +65,7 @@
 
 		.sectiontitle, .title {
         width: 300px;
-        min-height: 50px;
+        min-height: 30px;
         /*background-color: red;*/
         padding: 0px;
         margin-right: auto; 
@@ -75,7 +75,7 @@
 
 		.row {
         width: 300px;
-        min-height: 300px;
+        min-height: 150px;
         /*background-color: red;*/
         padding: 0px;
         margin-right: auto; 
@@ -84,7 +84,7 @@
 
         .resource {
         width: 300px;
-        min-height: 60px;
+        min-height: 30px;
         /*background-color: red;*/
         padding: 0px;
         margin-right: auto; 
@@ -153,7 +153,7 @@
         text-align: left;
         font-size: 1.0em;
         line-height: 20pt;
-        height: 50px;
+        height: 25px;
         float:none;
         font-weight: 300;
         }        
@@ -189,6 +189,8 @@
                         text-decoration: none;
                         font: 20px "Trebuchet MS", Arial, sans-serif;
                         border: 1px solid #942290;
+
+        }
 
 
 }
@@ -256,7 +258,7 @@
 
 		.sectiontitle, .title {
         width: 300px;
-        min-height: 50px;
+        min-height: 30px;
         /*background-color: red;*/
         padding: 0px;
         margin-right: auto; 
@@ -266,7 +268,7 @@
 
 		.row {
         width: 300px;
-        min-height: 300px;
+        min-height: 200px;
         /*background-color: red;*/
         padding: 0px;
         margin-right: auto; 
@@ -358,6 +360,8 @@
                 text-align: center;
                 background: white;
         }
+
+
 
         #nav_bar .wrapper {
                 width: 90%;
